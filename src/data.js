@@ -62,7 +62,7 @@ const data = [
         name: "Delhi",
         info: "It is officially the National Capital Territory (NCT) of Delhi, is a city and a union territory of India containing New Delhi, the capital of India. Straddling the Yamuna river, primarily its western or right bank, Delhi shares borders with the state of Uttar Pradesh in the east and with the state of Haryana in the remaining directions. The earliest, Indraprastha, is part of a literary description in the Sanskrit epic Mahabharata (composed c. 400 BCE to 200 CE but describing an earlier time) which situates a city on a knoll on the banks of the river Yamuna. According to art historian Catherine B. Asher, the topographical description of the Mahabharata matches the area of Purana Qila, a 14th-century CE fort of the Delhi sultanate, but the analogy does not go much further. Whereas the Mahabharata speaks of a beautifully decorated city with surrounding fortification, the excavations have yielded uneven findings of painted grey pottery characteristic of the eleventh century BCE; no signs of a built environment, much fewer fortifications, have been revealed.",
         
-        image: "https://www.delhimetrotimes.in/photos/2018/10/14/akshardham-temple.jpg",
+        image: "https://akshardham.com/newdelhi/wp-content/uploads/2015/06/akshardham_facts_and_figure_banner.jpg",
         price: "INR 60,555",
     },
     {
