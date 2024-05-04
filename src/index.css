@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Fraunces:opsz,wght@9..144,700&family=Poppins&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+  font-family: "Poppins",sans-serif;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title{
+  font-size: 2rem;
+  margin: 6vh;
+  border: 7px dashed blue;
+  border-radius: 20px;
+  padding: 1vh 5vw;
+}
+.cards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.card{
+  width: 390px;
+  height: max-content;
+  margin: 0.7rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  align-items: center;
+  box-shadow: rgba(0,0,0,0.4) 0px 3px 8px; 
+  transition: transform .2s;
+
+
+}
+
+.image{
+  width: 380px;
+  aspect-ratio: 1/1;
+  object-fit: cover ;
+  border-radius: 3px;
+}
+.image:hover{
+  width: 391px ;
+  transition:0.1;
+}
+
+.tour-info{
+  margin: 20px 5px;
+  align-self: start;
+}
+
+
+.price{
+  display: flex;
+  align-self: flex-start;
+  color: green;
+  font-size: 1.3rem;
+}
+
+.name{
+  display: flex;
+  align-self: flex-start;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.btn-red{
+  padding: 0.5rem 3rem;
+  background-color: rgb(244, 115, 92);
+  color: black;
+  border-radius: 1rem;
+  border: 1px rgb(36, 28, 27);
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: black 3px 4px;
+}
+.btn-red:hover{
+  background-color: red;
+  color: white;
+  transition: all 0.2s;
+}
+.read-more{
+  color: rgb(26, 151, 213);
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.refresh{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btn-white{
+  padding: 0.3rem 3rem;
+  font-weight: bold;
+  border: 1px solid black;
+  cursor: pointer;
+}
